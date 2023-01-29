@@ -1,0 +1,29 @@
+
+body{
+	color: #000000;
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 200px; /* just to placed in the middle for display */
+}
+#text {
+	font-weight: 200;
+	opacity: 1;
+	animation: animate 5s ease-out forwards infinite;
+	animation-delay: 1s;
+}
+
+@keyframes animate { 
+	0%{
+	letter-spacing: 5px;
+}
+
+20% {
+letter-spacing: 1px;
+}
+
+100% {
+letter-spacing: 5px;
+}
+
+}
+
